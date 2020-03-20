@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    background: rgb(224, 159, 61);
+    overflow-y: scroll; }  
+}
+.mysite{
+	flex:1;
+}
+.mymain_content{
+	width: 100%;
+	display: flex;
+    min-height: 95vh;
+    flex-direction: column;
+}
+.button_wrapper{
+	padding-top:200px;
+	width: 90%;
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+	font-size: 2rem; }
+button{
+	font-size: 2rem;
+	padding: 10px;
+	margin: 10px 6px 10px;
+	font-family: 'Cinzel', serif;
+	background-color:rgb(54, 51, 221);
+	color:white;
+}
+button:hover{
+	cursor: pointer;
+	color: black;
+	background-color: rgb(122, 121, 199);
+	transition: .4s ease-in-out;
+}
+.api_wrapper{
+	width: 400px;
+	margin: auto;
+}
+.api_wqrapper p{
+	font-size: 1.4rem;
+}
+.api_wrapper a{
+	font-size: 1.4rem;
+	color: white;
+}
+.api_wrapper a:hover{
+	color: rgb(68, 65, 214);
+}
+ul{
+	list-style: none;
+	font-size: 1.4rem;
+	
+}
+.mysite-footer {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-size: 100%;
+	color: rgb(2, 19, 253);
+
+}
